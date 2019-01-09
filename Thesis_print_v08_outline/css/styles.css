@@ -54,4 +54,35 @@ div.sticky2 {
 
 
 
+
+@media print {
+
+body {
+
+    background-image: url("Linedpaper.tif");
+    background-repeat: repeat-y;
+    padding-right: 5px;
+    margin-right:10px;
+    border: 5px white;
+    position: relative;
+    -webkit-print-color-adjust: exact;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
