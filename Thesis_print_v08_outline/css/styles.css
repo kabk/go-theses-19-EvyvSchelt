@@ -4,7 +4,7 @@
 /*html, body{
   min-height: 100%;
 }*/
-
+/*
 body {
     background-image: url("Linedpaper.tif");
     background-repeat: repeat-y;
@@ -13,7 +13,7 @@ body {
     border: 5px white;
     position: relative;
 }
-
+*/
 
 div.image {
     background-image: url("Linedpaper.tif");
@@ -69,6 +69,9 @@ body {
 
 }
 
+p.pagebreak {
+  page-break-after: always;
+}
 
 
 }
